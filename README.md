@@ -17,6 +17,7 @@ In this repository, you'll find different implementations of FizzBuzz, each with
 
 - [Classic](implementations/classic/fizz_buzz.go)
 - [Without using conditionals](implementations/no-ifs/fizz_buzz.go)
+- [Four for](implementations/four_for/four_for.go)
 
 Your creativity is the limit!
 
