@@ -1,7 +1,7 @@
 package main
 
 import (
-	no_ifs "fizz-buzz/implementations/no-ifs"
+	"fizz-buzz/implementations/no_ifs"
 )
 
 func main() {

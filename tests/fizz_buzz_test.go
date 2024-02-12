@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fizz-buzz/implementations/classic"
-	noIfs "fizz-buzz/implementations/no-ifs"
+	"fizz-buzz/implementations/no_ifs"
 	"fizz-buzz/pkg/contract"
 	"strings"
 	"testing"
@@ -22,7 +22,7 @@ func Test_FizzBuzz(t *testing.T) {
 		},
 		{
 			name: "without if",
-			do:   noIfs.New(maxNumber),
+			do:   no_ifs.New(maxNumber),
 		},
 	}
 	for _, tt := range tests {
