@@ -2,6 +2,7 @@ package tests
 
 import (
 	"fizz-buzz/implementations/classic"
+	"fizz-buzz/implementations/four_for"
 	"fizz-buzz/implementations/no_ifs"
 	"fizz-buzz/pkg/contract"
 	"strings"
@@ -23,6 +24,10 @@ func Test_FizzBuzz(t *testing.T) {
 		{
 			name: "without if",
 			do:   no_ifs.New(maxNumber),
+		},
+		{
+			name: "four for",
+			do:   four_for.New(maxNumber),
 		},
 	}
 	for _, tt := range tests {
