@@ -22,8 +22,8 @@ func (fb *FizzBuzzer) FizzBuzz() []string {
 	b := []string{"Buzz", "", "", "", ""}
 
 	for i := 1; i < fb.n; i++ {
-		t := f[i%3] + b[i%5]                             // 0 4 8
-		opts := []interface{}{i, t, t, t, t, t, t, t, t} // 9=8+1
+		t := f[i%3] + b[i%5]
+		opts := []interface{}{i, t, t, t, t, t, t, t, t}
 		printed := fmt.Sprintf("%v", opts[len(t)])
 
 		result = append(result, printed)
