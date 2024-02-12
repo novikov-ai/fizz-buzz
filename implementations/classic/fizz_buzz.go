@@ -1,7 +1,7 @@
 package classic
 
 import (
-	"fizz-buzz/internal/contract"
+	"fizz-buzz/pkg/contract"
 	"strconv"
 )
 

@@ -2,11 +2,12 @@ package tests
 
 import (
 	"fizz-buzz/implementations/classic"
-	"fizz-buzz/implementations/no_ifs"
-	"fizz-buzz/internal/contract"
-	"github.com/stretchr/testify/assert"
+	noIfs "fizz-buzz/implementations/no-ifs"
+	"fizz-buzz/pkg/contract"
 	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 const maxNumber = 100
@@ -124,8 +125,8 @@ func Test_FizzBuzz(t *testing.T) {
 			do:   classic.New(maxNumber),
 		},
 		{
-			name: "without IF",
-			do:   no_ifs.New(maxNumber),
+			name: "without if",
+			do:   noIfs.New(maxNumber),
 		},
 	}
 	for _, tt := range tests {

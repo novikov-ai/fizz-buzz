@@ -3,7 +3,7 @@ package no_ifs
 import (
 	"fmt"
 
-	"fizz-buzz/internal/contract"
+	"fizz-buzz/pkg/contract"
 )
 
 type FizzBuzzer struct {
