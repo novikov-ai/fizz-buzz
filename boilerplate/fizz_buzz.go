@@ -1,4 +1,4 @@
-package template
+package boilerplate
 
 import (
 	"fizz-buzz/pkg/contract"
