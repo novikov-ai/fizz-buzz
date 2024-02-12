@@ -45,7 +45,7 @@ git clone git@github.com:novikov-ai/fizz-buzz.git
 
 2. Explore the `implementations` directory for checking whether your idea already exists
 
-3. If you come with a new solution see [PR](example.com) and do the same with your idea
+3. If you come with a new solution see [PR](example.com) and do the same with your idea (use [boilerplate](implementations/template/README.md))
 
 4. Make sure, that all tests have passed. Just do the command:
 
