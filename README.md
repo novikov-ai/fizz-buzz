@@ -1,6 +1,6 @@
-# Embrace the FizzBuzz Challenge in Go!
+# Fizz Buzz World: Embrace the FizzBuzz Challenge in Go!
 
-Welcome to playground for exploring the classic FizzBuzz problem and its intriguing variations in Go!
+Welcome to the playground for exploring the classic FizzBuzz problem and its intriguing variations in Go!
 
 ## What is FizzBuzz?
 
@@ -36,12 +36,12 @@ Ready to dive in? Here's how to get started:
 
 **https**
 ~~~
-git clone https://github.com/novikov-ai/fizz-buzz.git
+git clone https://github.com/novikov-ai/fizz-buzz-world.git
 ~~~
 
 **ssh**
 ~~~
-git clone git@github.com:novikov-ai/fizz-buzz.git
+git clone git@github.com:novikov-ai/fizz-buzz-world.git
 ~~~
 
 2. Explore the `implementations` directory for checking whether your idea already exists
