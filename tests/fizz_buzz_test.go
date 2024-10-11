@@ -3,6 +3,7 @@ package tests
 import (
 	"fizz-buzz/implementations/classic"
 	"fizz-buzz/implementations/four_for"
+	"fizz-buzz/implementations/lucky_number"
 	"fizz-buzz/implementations/no_ifs"
 	"fizz-buzz/pkg/contract"
 	"strings"
@@ -28,6 +29,10 @@ func Test_FizzBuzz(t *testing.T) {
 		{
 			name: "four for",
 			do:   four_for.New(maxNumber),
+		},
+		{
+			name: "lucky number",
+			do:   lucky_number.New(maxNumber),
 		},
 	}
 	for _, tt := range tests {
