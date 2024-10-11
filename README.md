@@ -16,8 +16,9 @@ But here's where it gets exciting: we're not stopping at the classic FizzBuzz. W
 In this repository, you'll find different implementations of FizzBuzz, each with its own twist. From classic solutions to innovative approaches, we've got it all:
 
 - [Classic](implementations/classic/fizz_buzz.go)
-- [Without using conditionals](implementations/no_ifs/fizz_buzz.go)
-- [Four for](implementations/four_for/four_for.go)
+- [Without Using Conditionals](implementations/no_ifs/fizz_buzz.go)
+- [Four For](implementations/four_for/four_for.go)
+- [Lucky Number](implementations/lucky_number.go)
 
 Your creativity is the limit!
 
