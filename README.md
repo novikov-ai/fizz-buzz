@@ -48,7 +48,7 @@ Ready to dive in? Here's how to get started:
 
 2. Explore the `implementations` directory to see if your idea already exists.
 
-3. If you have a new solution, follow the [PR](https://github.com/novikov-ai/fizz-buzz/pull/3/files) example and add your implementation (use the [boilerplate](boilerplate/README.md) as a starting point).
+3. If you have a new solution, follow the [PR](https://github.com/novikov-ai/fizz-buzz/pull/3/files) example and add your implementation (use the [template](template/README.md) as a starting point).
 
 4. Run the tests to ensure everything works:
 
